@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>POSTALMEDIA</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Practica 3" name="keywords" />
+    <meta content="Practica 3" name="description" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Topbar Start -->
+    <div class="topbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+            <div class="d-inline-flex align-items-center">
+              <p><i class="fa fa-envelope mr-2"></i>postalsoria@gmail.com</p>
+              <p class="text-body px-3">|</p>
+              <p><i class="fa fa-phone-alt mr-2"></i>+34 678 987 567</p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center text-lg-right">
+            <div class="d-inline-flex align-items-center">
+              <a
+                class="text-primary px-3"
+                href="https://es-es.facebook.com/"
+                title="pagina facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                class="text-primary px-3"
+                href="https://twitter.com/home"
+                title="pagina twitter"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                class="text-primary px-3"
+                href="https://www.linkedin.com/"
+                title="pagina linkedin"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                class="text-primary px-3"
+                href="https://www.instagram.com/"
+                title="pagina instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                class="text-primary pl-3"
+                href="https://www.youtube.com/"
+                title="pagina youtube"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="navbar-container">
+      <nav class="margin navbar">
+        <div class="row">
+          <div class="col-8 navbar">
+            <h1>Soria está de Moda</h1>
+            <hr />
+          </div>
+
+          <div class="col-4 navbar-menu">
+            <ul class="navbar-nav">
+              <li>
+                <a href="index.html" class="nav-link" title="Menu principal"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="creapostal.html"
+                  class="nav-link active"
+                  title="Crear postal"
+                  >Crear postal</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="text-center mb-3 pb-3">
+          <h6 class="text-primary text-uppercase" style="letter-spacing: 5px"> Crea tu Postal
+        </div>
+
+        <div class="carousel">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="3"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="4"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="img/destination-1.jpg"
+                  alt="Piscina"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/destination-2.jpg"
+                  alt="Playa"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/destination-3.jpg"
+                  alt="Islas"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/destination-4.jpg"
+                  alt="Piscinas"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/destination-5.jpg"
+                  alt="Desierto"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="contact-form bg-white" style="padding: 30px">
+              <div id="success"></div>
+              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                <div class="form-row">
+                  <div class="control-group col-sm-6">
+                    <label for="name"></label
+                    ><input
+                      type="text"
+                      class="form-control p-4"
+                      id="name"
+                      placeholder="Nombre"
+                      required="required"
+                      data-validation-required-message="Escribe tu nombre"
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="control-group col-sm-6">
+                    <label for="email"></label
+                    ><input
+                      type="email"
+                      class="form-control p-4"
+                      id="email"
+                      placeholder="Correo electrónico"
+                      required="required"
+                      data-validation-required-message="Escribe tu correo electrónico"
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+
+                <div class="mb-3 mb-md-0">
+                  <label>
+                    <select class="custom-select px-4" style="height: 47px">
+                      <option selected>Número de postal (del 1 al 5)</option>
+                      <optgroup label="Numero de postal">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </optgroup>
+                    </select>
+                  </label>
+                </div>
+
+                <div class="control-group">
+                  <label for="subject"></label
+                  ><input
+                    type="text"
+                    class="form-control p-4"
+                    id="subject"
+                    placeholder="Asunto de la postal"
+                    required="required"
+                    data-validation-required-message="Escribe el asunto de la postal"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+
+                <div class="control-group">
+                  <label for="message"></label
+                  ><textarea
+                    class="form-control py-3 px-4"
+                    rows="5"
+                    id="message"
+                    placeholder="Mensaje"
+                    required="required"
+                    data-validation-required-message="Escribe un mensaje"
+                  ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="text-center">
+                  <button href="postalenviada.html"
+                    >Enviar postal</button
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!--Footer Start-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5">
+            <a href="#" class="navbar-brand">
+              <h1 class="text-primary">PostalSoria</h1>
+            </a>
+            <p>Nunca estarás lejos de casa</p>
+            <h2
+              class="text-white text-uppercase mt-4 mb-3"
+              style="letter-spacing: 5px"
+            >
+              Síguenos
+            </h2>
+            <div class="d-flex justify-content-start">
+              <a
+                href="https://twitter.com/home"
+                class="btn btn-outline-primary btn-square mr-2"
+                title="Página de Twitter"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="https://es-es.facebook.com/"
+                class="btn btn-outline-primary btn-square mr-2"
+                title="Página de Facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                class="btn btn-outline-primary btn-square mr-2"
+                title="Página de LinkedIn"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                class="btn btn-outline-primary btn-square"
+                title="Página de Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <h5
+              class="text-white text-uppercase mb-4"
+              style="letter-spacing: 5px"
+            >
+              Nuestros Productos
+            </h5>
+            <ul class="list-unstyled">
+              <li><a href="creapostal.html" class="text-white">Postales</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <h5
+              class="text-white text-uppercase mb-4"
+              style="letter-spacing: 5px"
+            >
+              Enlaces Rápidos
+            </h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-white">Home</a></li>
+              <li>
+                <a href="creapostal.html" class="text-white">Crear Postal</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <h5
+              class="text-white text-uppercase mb-4"
+              style="letter-spacing: 5px"
+            >
+              Contacto
+            </h5>
+            <p><i class="fa fa-phone-alt mr-2"></i> +34 678 987 567</p>
+            <p><i class="fa fa-envelope mr-2"></i> postalsoria@gmail.com</p>
+            <p>
+              <i class="fa fa-map-marker-alt mr-2"></i> 123, Av. Principal,
+              Móstoles, España
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      title="subir"
+      class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/scrippt.js"></script>
+  </body>
+</html>
