@@ -6,6 +6,44 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 /* Topbar Styles */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: none;
+  z-index: 9999;
+}
+
+/* Estilos para el botón "OK" */
+.btn-ok {
+  display: block;
+  margin-top: 20px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-ok:hover {
+  background-color: rgb(150, 150, 150);
+}
+
+.centrado {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.nav-link:hover {
+  background-color: rgb(150, 150, 150);
+}
+
 .topbar {
   background-color: #484848;
   color: #fff;

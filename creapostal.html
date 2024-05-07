@@ -280,9 +280,7 @@
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="text-center">
-                  <button href="postalenviada.html"
-                    >Enviar postal</button
-                  >
+                  <a class="nav-link active centrado" onclick="mostrarPopup()">Enviar Postal</a>
                 </div>
               </form>
             </div>
@@ -389,6 +387,27 @@
       class="btn btn-lg btn-primary btn-lg-square back-to-top"
       ><i class="fa fa-angle-double-up"></i
     ></a>
+
+    <!-- Popup -->
+    <div id="popup" class="popup">
+      ¡Enhorabuena! Tu postal ha sido enviada.
+      <div class="centrado">
+        <button class="btn-ok" onclick="cerrarPopup()">OK</button>
+      </div>
+    </div>
+
+    <script>
+      function mostrarPopup() {
+        var popup = document.getElementById("popup");
+        popup.style.display = "block";
+      }
+    
+      function cerrarPopup() {
+        var popup = document.getElementById("popup");
+        popup.style.display = "none";
+        window.location.href="index.html"
+      }
+    </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
